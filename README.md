@@ -1,6 +1,6 @@
 # Save Asiatic Lions Website
 
-![Save Asiatic Lions](https://your-image-url.com/asiatic-lions-image.jpg)
+![Save Asiatic Lions](https://github.com/yashsonisde2003/AsiaticLionwebsite/blob/main/static/Screenshot.png)
 
 
 ## About
