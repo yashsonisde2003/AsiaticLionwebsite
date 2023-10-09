@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#backlit::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 1349px;
+    height: 83vh;
+    background: url(../static/upperback.jpg)no-repeat center center/cover;
+    background-size: 1349px 550px;
+    z-index: -1;
+}
+
+#image-container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 1349px;
+    height: 83vh;
+    background: black;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+#p p {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: unset;
+    position: absolute;
+    top: 189px;
+    left: 191px;
+    line-height: 1px 9px;
+    width: 956px;
+}
+
+hr {
+    position: relative;
+    top: 310px;
+}
+
+#allcards-content {
+    background-color: rgb(139, 138, 138);
+    color: black;
+    position: absolute;
+    top: 855px;
+    left: 63px;
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1217px;
+    box-shadow: 4px 4px 28px 7px black;
+}
+
+/* container specific stuff */
+#image-container {
+    width: 1349px;
+    height: 83vh;
+}
+
+#allcards-container {
+    height: 100vh;
+    width: 1349px;
+    background: grey;
+}
+
+#card-container {
+    position: absolute;
+    top: 88%;
+    left: 18%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+#card-container2 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+#card-container3 {
+    position: absolute;
+    top: 82%;
+    left: 85%;
+    width: 280px;
+    height: 280px;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+#card {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 280px;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+
+}
+
+#card:hover {
+    transform: rotatey(180deg);
+}
+
+#cardfront1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(206, 0, 0);
+    width: 280px;
+    height: 280px;
+    backface-visibility: hidden;
+    background: url(../static/ow1.jpg)no-repeat center center;
+    background-size: 282px 279px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px 5px black;
+}
+
+#cardback1 {
+    position: absolute;
+    top: 0;
+    color: rgb(0, 0, 0);
+    left: 0;
+    width: 280px;
+    height: 280px;
+    background: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    transform: rotatex(180deg);
+    border-radius: 5px;
+    box-shadow: -4px -4px 14px 5px black;
+}
+
+#cardfront2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(206, 0, 0);
+    width: 280px;
+    height: 280px;
+    backface-visibility: hidden;
+    background: url(../static/ow2.jpg)no-repeat center center;
+    background-size: 282px 279px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px 5px black;
+}
+
+#cardback2 {
+    position: absolute;
+    top: 0;
+    color: rgb(0, 0, 0);
+    left: 0;
+    width: 280px;
+    height: 280px;
+    background: black;
+    backface-visibility: hidden;
+    transform: rotatex(180deg);
+    border-radius: 5px;
+    box-shadow: -4px -4px 14px 5px black;
+}
+
+#cardfront3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(206, 0, 0);
+    width: 280px;
+    height: 280px;
+    backface-visibility: hidden;
+    background: url(../static/ow4.jpg)no-repeat center center;
+    background-size: 282px 279px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px 5px black;
+}
+
+#cardback3 {
+    position: absolute;
+    top: 0;
+    color: rgb(255, 255, 255);
+    left: 0;
+    width: 280px;
+    height: 280px;
+    background: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    transform: rotatex(180deg);
+    border-radius: 5px;
+    box-shadow: -4px -14px 5px black;
+}
+
+/* utility class */
+.para {
+    color: white;
+    text-align: justify;
+    padding: 8px 8px 8px 8px;
+    rotate: 180deg;
+}
+
+.card-heading {
+    position: relative;
+    top: 352px;
+    left: 2px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    color: black;
+    width: 225px;
+}

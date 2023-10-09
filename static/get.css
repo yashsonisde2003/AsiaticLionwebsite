@@ -1,0 +1,74 @@
+#back::before {
+    content: '';
+    position: absolute;
+    width: 1349px;
+    height: 106vh;
+    background: url('../static/back2.jpg')no-repeat center center/cover;
+    z-index: -1;
+}
+
+#container::before {
+    content: "";
+    position: absolute;
+    background: black;
+    width: 1349px;
+    height: 111vh;
+    z-index: -1;
+    opacity: 0.32;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 106vh;
+    width: 1349px;
+}
+
+#container h1 {
+    text-align: center;
+    color: white;
+}
+
+#container input {
+    margin: 14px 15px;
+    padding: 2px 83px;
+    border: 2px solid darkgrey;
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#container form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    padding: 49px 59px;
+    border-radius: 27px;
+}
+
+#container button {
+    margin: 7px 1px -18px 142px;
+    padding: 5px 0px;
+    width: 130px;
+    height: 32px;
+    border-radius: 11px;
+    background: #ffffff;
+    border: 2px solid black;
+    color: black;
+}
+
+form label {
+    color: white;
+    margin: 1px 0px -13px 18px;
+    font-size: 17px;
+}
+
+#container button:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
+    transition: 0.3s;
+}

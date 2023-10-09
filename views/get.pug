@@ -1,0 +1,26 @@
+extends base.pug
+
+block scripts
+    include ../static/index.js 
+
+block style 
+    style 
+        include ../static/al.css
+        include ../static/get.css
+
+block content 
+    div#back
+    div#container
+        h1 Connect With US
+        form(action="/get" method='post')
+            <label for="name">Name</label>  
+            input(type="text", class='myinput',name="name", paceholder='Enter your name',)
+            <label for="phone">Phn. No. </label>
+            input(type="phone", class='myinput',name="phone", paceholder='Enter your phone',)  
+            <label for="name">Email</label>
+            input(type="email", class='myinput',name="email", paceholder='Enter your email',)  
+            <label for="name">Address</label>
+            input(type="text", class='myinput',name="address", paceholder='Enter your address',)  
+            <label for="name">Description</label>
+            input(type="text", class='myinput',name="Description", paceholder='Enter your concern',)  
+            button  SUBMIT

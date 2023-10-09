@@ -1,0 +1,16 @@
+extends base.pug
+
+block scripts
+    include ../static/index.js 
+
+block style 
+    style 
+        include ../static/al.css
+
+block content
+    section#home-container
+        div.text
+            p.text1  SPECIES ----
+            p#text2 Asiatic Lion
+            p.text1  STATUS ----
+            p#text3  Endangered
