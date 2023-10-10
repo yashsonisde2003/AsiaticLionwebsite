@@ -70,7 +70,7 @@ The Save Asiatic Lions Website is a user-friendly platform that provides the fol
 ## Connect through
 
 If you'd like to contact to this project's developer:-
-[connect & follow on linkedin](www.linkedin.com/in/yash-soni-1379b5216)
+connect & follow on linkedin:-www.linkedin.com/in/yash-soni-1379b5216
 Email me at:-yashrajsoni.sde2003@gmail.com
 
 ---
