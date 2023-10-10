@@ -2,6 +2,7 @@
 
 ![Save Asiatic Lions](https://github.com/yashsonisde2003/AsiaticLionwebsite/blob/main/static/Screenshot.png)
 
+---
 
 ## About
 
@@ -22,6 +23,37 @@ This project is developed using the following technologies:
 
 ---
 
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/save-asiatic-lions.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd save-asiatic-lions
+   ```
+
+3. Install the required technologies:
+
+   ```bash
+   npm <package name>
+   ```
+
+4. Start the Node.js server:
+
+   ```bash
+   node ./app.js
+   ```
+
+5. Open your web browser and visit [http://localhost:80](http://localhost:80) to view the website.
+
+---
 
 ## Usage
 
@@ -33,4 +65,20 @@ The Save Asiatic Lions Website is a user-friendly platform that provides the fol
 - Opportunities to donate or support organizations working towards saving Asiatic lions.
 
 
-Thank you for your interest in the Save Asiatic Lions Website project!
+---
+
+## Connect through
+
+If you'd like to contact to this project's developer:-
+[connect & follow on linkedin](www.linkedin.com/in/yash-soni-1379b5216)
+Email me at:-yashrajsoni.sde2003@gmail.com
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for your interest in the Save Asiatic Lions Website project! 
